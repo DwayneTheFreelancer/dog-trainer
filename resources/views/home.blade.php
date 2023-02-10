@@ -4,16 +4,16 @@
 
 @section('content')
   <div class="container-fluid main-container py-5">
-      <h1 class="text-center pb-5">The dog trainer that everyone loves.</h1>
+      <h1 class="text-center pb-5" data-mdb-toggle="animation" data-mdb-animation="slide-in-left" data-mdb-animation-start="onLoad">The dog trainer that everyone loves.</h1>
       <div class="container dog-trainer-header">
-          <img src="images/dog-trainer-header.jpg" alt="dog trainer">
+          <img src="images/dog-trainer-header.jpg" alt="dog trainer" data-mdb-toggle="animation" data-mdb-animation="zoom-in" data-mdb-animation-start="onLoad">
       </div>
       <div class="container intro">
           <div class="container">
-              <h1>Welcome to training camp</h1>
+              <h1 data-mdb-toggle="animation" data-mdb-animation="slide-in-left" data-mdb-animation-start="onScroll">Welcome to training camp</h1>
           </div>
           <div class="container">
-              <p>Want a well behaved dog? The first step is to seek professional dog training. Whether you need a dog trainer or want to become one, I can help. My goal is to help make your life with your pet smoother, we'll be helping those dogs and cats to be more friendly and obedient.</p>
+              <p data-mdb-toggle="animation" data-mdb-animation="slide-in-right" data-mdb-animation-start="onScroll">Want a well behaved dog? The first step is to seek professional dog training. Whether you need a dog trainer or want to become one, I can help. My goal is to help make your life with your pet smoother, we'll be helping those dogs and cats to be more friendly and obedient.</p>
           </div>
       </div>
   </div>
@@ -24,7 +24,7 @@
         <div class="col-12 col-md-4 col-lg-4 pb-5">
           <div class="mw-sm mx-auto text-center">
             <div class="mb-6 d-flex justify-content-center align-items-center mx-auto text-white rounded" style="width: 64px; height: 64px; background-color: #ffe8ba">
-              <i class="fa-solid fa-phone text-dark fa-2x"></i>
+              <i class="fa-solid fa-phone text-dark fa-2x" data-mdb-toggle="animation" data-mdb-animation="tada" data-mdb-animation-start="onHover" data-mdb-animation-on-hover="repeat"></i>
             </div>
             <h3 class="font-heading fs-8 mb-4">Give Us a Call</h3>
             <p class="mb-0 fw-medium">You can call me at (012)-345-0123.</p>
@@ -33,7 +33,7 @@
         <div class="col-12 col-md-4 pb-5">
           <div class="mw-sm mx-auto text-center">
             <div class="mb-6 d-flex justify-content-center align-items-center mx-auto rounded" style="width: 64px; height: 64px; background-color: #ffe8ba">
-              <i class="fa-solid fa-calendar-days fa-2x"></i>
+              <i class="fa-solid fa-calendar-days fa-2x" data-mdb-toggle="animation" data-mdb-animation="tada" data-mdb-animation-start="onHover" data-mdb-animation-on-hover="repeat"></i>
             </div>
             <h3 class="font-heading fs-8 mb-4">Schedule Trainings</h3>
             <p class="mb-0 fw-medium">I will send you my booking link after the call to schedule training days.</p>
@@ -42,7 +42,7 @@
         <div class="col-12 col-md-4">
           <div class="mw-sm mx-auto text-center">
             <div class="mb-6 d-flex justify-content-center align-items-center mx-auto rounded" style="width: 64px; height: 64px; background-color: #ffe8ba">
-              <i class="fa-solid fa-dog fa-2x"></i>
+              <i class="fa-solid fa-dog fa-2x" data-mdb-toggle="animation" data-mdb-animation="tada" data-mdb-animation-start="onHover" data-mdb-animation-on-hover="repeat"></i>
             </div>
             <h3 class="font-heading fs-8 mb-4">Happy Behaved Dog</h3>
             <p class="mb-0 fw-medium">Your dog will be well behaved after our 12 weeks of training.</p>
