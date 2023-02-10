@@ -1,0 +1,35 @@
+.about-header {
+    display: flex;
+    justify-content: center;
+    //border: 2px solid black;
+    padding-top: 100px;
+    background: url('/images/review-3.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    h1 {
+        font-size: 3.5em;
+    }
+    img {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        width: fit-content;
+        border-radius: 10px;
+    }
+}
+
+.our-story {
+    background-color: #e6d8f8;
+    h1 {
+        font-size: 3.5em;
+    }
+    img {
+        object-position: center;
+        object-fit: cover;
+        width: 100%;
+        padding: 20px;
+        border-radius: 50px;
+    }
+}

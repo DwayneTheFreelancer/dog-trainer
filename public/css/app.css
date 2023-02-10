@@ -1,0 +1,119 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe8ba;
+}
+.main-container h1 {
+  font-size: 4em;
+  margin-top: 50px;
+}
+.main-container .dog-trainer-header {
+  padding-bottom: 100px;
+}
+.main-container .dog-trainer-header img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 20px;
+}
+.main-container .intro {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.main-container .intro h1 {
+  margin-bottom: 30px;
+}
+
+.meet-the-trainer {
+  background-color: #e6d8f8;
+  padding: 75px;
+}
+
+.trainer-reviews {
+  background-color: #ffe8ba;
+  padding: 100px;
+}
+
+@media (min-width: 350px) and (max-width: 767px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-container .intro {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+.about-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  background: url("/images/review-3.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.about-header h1 {
+  font-size: 3.5em;
+}
+.about-header img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.our-story {
+  background-color: #e6d8f8;
+}
+.our-story h1 {
+  font-size: 3.5em;
+}
+.our-story img {
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.contact-main {
+  margin-top: 150px;
+}
+.contact-main button {
+  background-color: #e6d8f8;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  margin-top: -50px;
+}
