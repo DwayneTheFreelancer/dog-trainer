@@ -10,7 +10,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi praesentium repudiandae quasi consequatur hic animi quod odio, rerum iure voluptates quam saepe, nostrum pariatur sapiente corrupti alias voluptatem totam id?</p>
             </div>
             <div class="col-md-6">
-                <img src="{{ asset('images/dog.jpg') }}" alt="">
+                <img src="{{ secure_asset('images/dog.jpg') }}" alt="">
             </div>
         </div>
     </div>

@@ -56,7 +56,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="rounded-circle shadow-1-strong mb-4"
-              src="{{ asset('images/review-1.jpg') }}" alt="avatar"
+              src="{{ secure_asset('images/review-1.jpg') }}" alt="avatar"
               style="width: 100px; height: 100px; object-fit:cover" />
             <div class="row d-flex justify-content-center">
               <div class="col-lg-8">
@@ -78,7 +78,7 @@
           </div>
           <div class="carousel-item">
             <img class="rounded-circle shadow-1-strong mb-4"
-              src="{{ asset('images/review-2.jpg') }}" alt="avatar"
+              src="{{ secure_asset('images/review-2.jpg') }}" alt="avatar"
               style="width: 100px; height: 100px; object-fit:cover" />
             <div class="row d-flex justify-content-center">
               <div class="col-lg-8">
@@ -99,7 +99,7 @@
           </div>
           <div class="carousel-item">
             <img class="rounded-circle shadow-1-strong mb-4"
-              src="{{ asset('images/review-3.jpg') }}" alt="avatar" style="width: 100px; height: 100px; object-fit:cover" />
+              src="{{ secure_asset('images/review-3.jpg') }}" alt="avatar" style="width: 100px; height: 100px; object-fit:cover" />
             <div class="row d-flex justify-content-center">
               <div class="col-lg-8">
                 <h5 class="mb-3">Anna</h5>
