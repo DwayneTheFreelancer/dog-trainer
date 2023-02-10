@@ -6,7 +6,7 @@
   <div class="container-fluid main-container py-5">
       <h1 class="text-center pb-5" data-mdb-toggle="animation" data-mdb-animation="slide-in-left" data-mdb-animation-start="onLoad">The dog trainer that everyone loves.</h1>
       <div class="container dog-trainer-header">
-          <img src="images/dog-trainer-header.jpg" alt="dog trainer" data-mdb-toggle="animation" data-mdb-animation="zoom-in" data-mdb-animation-start="onLoad">
+          <img src="{{ asset('images/dog-trainer-header.jpg') }}" alt="dog trainer" data-mdb-toggle="animation" data-mdb-animation="zoom-in" data-mdb-animation-start="onLoad">
       </div>
       <div class="container intro">
           <div class="container">

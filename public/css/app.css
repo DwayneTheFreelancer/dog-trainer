@@ -18,8 +18,6 @@
   -o-object-position: center;
      object-position: center;
   width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
   border-radius: 20px;
 }
 .main-container .intro {
